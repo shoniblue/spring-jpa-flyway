@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: jpa-flyway
+demo:
+  jdbc:
+    url: ${prototype.demo.jdbc.url}:prototypedb
+    port: ${prototype.demo.jdbc.port}:3307
+    username: ${prototype.demo.jdbc.username}:root
+    password: ${prototype.demo.jdbc.password}:abcde12345   
